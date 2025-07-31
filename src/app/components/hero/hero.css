@@ -1,0 +1,39 @@
+.hero-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #000;
+  color: white;
+}
+
+.hero-section h1 {
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-logo {
+  margin-bottom: 1.5rem;
+  width: 120px;
+  height: auto;
+}
+
+.cta-button {
+  background-color: #ff6600;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 9999px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e65c00;
+}

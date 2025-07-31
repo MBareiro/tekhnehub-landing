@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+   width: 100%;
+  box-sizing: border-box;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.nav-links button {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links button:hover {
+  color: #ff6600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+.nav-links a {
+  color: white;
+  background-color: #ff6600;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #ffffff;
+}

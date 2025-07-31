@@ -1,0 +1,26 @@
+.contacto-section {
+  padding: 4rem 2rem;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.contact-datos {
+  margin-top: 3rem;
+}
+
+mat-icon {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}

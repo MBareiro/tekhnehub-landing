@@ -1,0 +1,34 @@
+<section id="contacto-section" class="contacto-section">
+  <h2><mat-icon>contact_mail</mat-icon> Contactanos</h2>
+
+  <form [formGroup]="form" (ngSubmit)="enviar()" class="contact-form">
+    <mat-form-field appearance="outline">
+      <mat-label>Nombre de la escuela</mat-label>
+      <input matInput formControlName="escuela" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Tu nombre</mat-label>
+      <input matInput formControlName="nombre" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>WhatsApp</mat-label>
+      <input matInput formControlName="whatsapp" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Mensaje (opcional)</mat-label>
+      <textarea matInput formControlName="mensaje"></textarea>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="form.invalid">
+      Enviar mensaje
+    </button>
+  </form>
+
+  <div class="contact-datos">
+    <p><mat-icon>email</mat-icon> info@tekhnehub.com</p>
+    <p><mat-icon>whatsapp</mat-icon> +54 376 4XX XXXX</p>
+  </div>
+</section>
